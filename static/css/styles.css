@@ -1,0 +1,143 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#chat-messages {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-message {
+    background-color: #e6f3ff;
+    text-align: right;
+}
+
+.ai-message {
+    background-color: #f0f0f0;
+}
+
+/* Markdown Styles */
+.ai-message h1, .ai-message h2, .ai-message h3, .ai-message h4, .ai-message h5, .ai-message h6 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.ai-message strong {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.ai-message em {
+    font-style: italic;
+}
+
+.ai-message ul, .ai-message ol {
+    padding-left: 20px;
+}
+
+.ai-message li {
+    margin-bottom: 5px;
+}
+
+.ai-message blockquote {
+    border-left: 3px solid #ccc;
+    margin: 0;
+    padding-left: 10px;
+    color: #555;
+}
+
+.ai-message code {
+    background-color: #f8f8f8;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.ai-message pre {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 3px;
+    overflow-x: auto;
+}
+
+.ai-message hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+/* Style for underlined text before colons */
+.ai-message u {
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+    padding-bottom: 1px;
+}
+
+/* Input and button styles */
+#user-input {
+    width: calc(100% - 70px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#chat-input {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* PDF upload section */
+#pdf-uploader {
+    margin-bottom: 20px;
+}
+
+#pdf-status {
+    margin-top: 10px;
+    font-style: italic;
+}
