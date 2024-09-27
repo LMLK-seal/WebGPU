@@ -21,7 +21,7 @@ You can set up this project either by cloning the repository or by downloading t
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/WebGPU.git
+   git clone https://github.com/LMLK-seal/WebGPU.git
    ```
 2. Navigate to the project directory:
    ```
