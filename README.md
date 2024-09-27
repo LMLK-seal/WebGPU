@@ -4,7 +4,7 @@ This project implements a chatbot application that leverages the power of large 
 
 ## Background:
 
-The application utilizes the unsloth/Phi-3-mini-4k-instruct model, a powerful causal language model, for natural language understanding and generation. It integrates PDF processing capabilities using PyPDF2 to extract text from uploaded PDF files. The Flask framework provides the web application infrastructure, creating a user-friendly interface for interacting with the chatbot.
+The application utilizes the unsloth/Phi-3-mini-4k-instruct model (Phi-3 as default you can use whatever model you like), a powerful causal language model, for natural language understanding and generation. It integrates PDF processing capabilities using PyPDF2 to extract text from uploaded PDF files. The Flask framework provides the web application infrastructure, creating a user-friendly interface for interacting with the chatbot.
 
 ## Features:
 
@@ -13,31 +13,73 @@ The application utilizes the unsloth/Phi-3-mini-4k-instruct model, a powerful ca
 3. **Markdown Formatting:** The chatbot responses are formatted using Markdown, enhancing readability and providing structure to the information.
 4. **Clear Conversation Button:** Allows users to easily clear the chat history.
 
-## Installation:
+## Installation
+
+You can set up this project either by cloning the repository or by downloading the files directly.
+
+### Option 1: Cloning the Repository
 
 1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd your-repo-name
+   ```
 
-git clone https://github.com/LMLK-seal/WebGPU.git
+### Option 2: Downloading Files Directly
 
-2. Create a virtual environment (recommended):
+If you prefer not to clone the repository, you can download the necessary files directly:
 
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+1. Download the following files:
+   - `app.py`
+   - `static/css/styles.css`
+   - `static/js/main.js`
+   - `static/images/main.png`
+   - `templates/index.html`
 
-3. Install dependencies:
+2. Ensure you maintain the same directory structure when saving the files locally.
 
-pip install -r requirements.txt
-or
-You can install these libraries using pip: 
+### Setting Up the Environment
+
+Regardless of which option you choose, follow these steps to set up your environment:
+
+1. Create a virtual environment:
+   ```
+   python -m venv venv
+   ```
+
+2. Activate the virtual environment:
+   - On Windows:
+     ```
+     venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```
+     source venv/bin/activate
+     ```
+
+3. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
+or use:
+
 ```
    pip install torch transformers flask PyPDF2 markdown
    ```
 
 4. Run the application:
+   ```
+   python app.py
+   ```
 
-python app.py
+5. Open your web browser and navigate to `http://localhost:5000` to view the application.
 
-The application will start on http://127.0.0.1:5000/.
+## Note
+
+Make sure you have Python 3.7+ installed on your system before proceeding with the installation.
 
 ## Usage:
 
