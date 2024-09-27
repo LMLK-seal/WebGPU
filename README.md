@@ -25,7 +25,7 @@ You can set up this project either by cloning the repository or by downloading t
    ```
 2. Navigate to the project directory:
    ```
-   cd your-repo-name
+   cd WebGPU
    ```
 
 ### Option 2: Downloading Files Directly
