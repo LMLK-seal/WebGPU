@@ -1,5 +1,7 @@
 # Private LLM chatbot using WebGPU
 
+![WebGPU Chat Demo](https://github.com/LMLK-seal/WebGPU/blob/main/WebGPU.gif?raw=true)
+
 This project implements a chatbot application that leverages the power of large language models (LLMs) to interact with users and analyze PDF documents. Users can upload a PDF, and then engage in a conversational interface to ask questions about the document's content. The chatbot provides answers formatted with Markdown for improved readability.
 
 **Important Note:** WebGPU is designed to be 100% offline and private once set up. However, it requires an initial download of the model. After this initial download, the application operates entirely on your local machine, ensuring your prompts remain private and secure.
