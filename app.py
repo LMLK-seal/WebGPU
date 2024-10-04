@@ -106,7 +106,7 @@ def create_app():
                 messages.insert(1, pdf_content_message)
 
             generation_args = {
-                "max_new_tokens": 500,
+                "max_new_tokens": 2000,
                 "return_full_text": False,
                 "temperature": 0.7,
                 "do_sample": True,
